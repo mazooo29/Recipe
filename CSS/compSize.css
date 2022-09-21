@@ -32,10 +32,12 @@
         margin-left: 13px;
     }
     .prepTimeText{
-        width: 90px;    
+        width: 90px; 
+        font-size: 14px;
     }
     .minutes45{
         float: right;
+        font-size: 14px;
     }
     .inlineDivsTime{
         display: flex;
