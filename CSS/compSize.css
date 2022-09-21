@@ -18,10 +18,11 @@
     } 
     .yieldsText{
         line-height: 36px;
+        font-size: 14px;
     }
     .servingsText{
         font-weight: 700;
-        font-size: 10px;
+        font-size: 14px;
     }
         
     i.first{
