@@ -1,9 +1,5 @@
 
-    body{
-    position: absolute;
-    width: 375px;
-    left: 0px;
-    top: 0px;
+body{
     background: #FAFAFA;
 }
 .mainHeaderText{
@@ -17,10 +13,8 @@
     color: #000000; 
 }
 .p6pdiv{
-    margin-top:30px; 
-    margin-left:10px;
-    margin-right: 15px;
-    width:100%;
+    margin: 30px 15px 0 10px;
+    width:80%;
     height:70px;
 }
 .p6div{
@@ -28,15 +22,14 @@
     margin-top: 6px;
 }
 .pdiv{
-    float: right;  
-    top: 0%;
+    display: flex; 
 }
 .paraDesc{
-    width: 320px;
-    margin-right: 33px;
+    margin-left: 12px;
     font-style: italic;
     font-size: 12px;
     font-family: 'Montserrat';
+    font-weight: 700;
     color: #4F4F4F;
 }
 .Image6dots{
@@ -45,10 +38,9 @@
     margin-top: 10px;
 }
 .imageDiv{
-    width: 370px;
+    width: 80%;
     height: fit-content;
-    margin-left: 11px;
-    margin-right: 12px;
+    margin:0px 12px 5px;
     bottom:50%;
 }   
 .imageView{
@@ -62,43 +54,47 @@
     height: 11px;
     font-weight: 700;
     font-size: 8px;
-    line-height: 36px;
+    margin-top: 15px;
+    line-height: 20px;
     text-transform: uppercase;
     font-family: 'Montserrat';
 }
 .servingsText{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 10px;
     color: #F2994A;
-    line-height: 20px;
+    margin-right: 25px;
+    margin-top: 10px;
     font-family: 'Montserrat';
 }
     
 i.first{
-    margin-left: 15px;
-    margin-top: 5px;
+    margin-right: 10px;
     color: #F2994A;
+    align-items: center;
+
 }
 i.second{
-    margin-left: 13px;
+    margin-right: 10px;
 }
 .prepTimeText{
-    width: 90px;
+    display: inline-flex;
     height: 10px;
     font-weight: 700;
     font-size: 8px;
-    line-height: 15px;
+    margin-right:15px ;
+    line-height: 40px;
     text-transform: uppercase;
     color: #BDBDBD;
 }
 .minutes45{
     font-family: 'Montserrat';
-    width: 62.08px;
     height: 16px;
     left: 32px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 10px;
-    line-height: 3px;
+    margin-right: 15px;
+    line-height: 5px;
     color: #333333;
 }
 .inlineDivsTime{
@@ -106,13 +102,9 @@ i.second{
     width: auto;
     height: auto;
 }
-.widthDiv{
-    width: 65px;
-    margin-left: 0px;
-}
 .IngredText{
     height: 24px;
-    font-family: 'Playfair Display',sans-serif;
+    font-family: 'Playfair Display';
     font-weight: 700;
     font-size: 18px;
 }
@@ -121,7 +113,7 @@ i.second{
     height: 21px;
     font-family: 'Playfair Display';
     font-style: italic;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     color: #333333;
 }
@@ -136,19 +128,22 @@ input[type="checkbox"]{
     background-color: #d5d5d5;
     border-radius: 2px;
     margin-bottom: 12px;
-    margin-left: 8px;
+    margin-left: 8px;   
+    line-height: 150%;
     cursor: pointer;
 }
-label{
-    font-weight: 500;
+.labelTag{
+    font-weight: 700;
     font-size: 14px;
     font-family: 'Montserrat';
+    color: black;
+    line-height: 150%;  
 }
 .checkboxTextDiv{
     display: inline-block;
 }
 .boldDiv{
-    font-weight: bolder;
+    font-weight: 2000;
 }
 .chesecakeText{
     position: relative;
@@ -156,7 +151,7 @@ label{
     height: 25px;
     font-family: 'Playfair Display'; 
     font-style: italic;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 24px;
 }
@@ -171,7 +166,7 @@ div span {
     color:#fff;
     font-family: 'Playfair Display';
 }
-    .instructionsMenu{
+.instructionsMenu{
     display: block;
     margin-bottom: 20px;
     width: 300px;
@@ -198,5 +193,9 @@ div span {
 .authorName{
     align-items: center; 
     text-align: center;       
+}
+.displayInline{
+    display: flex;
+    flex-direction: row;
 }
 

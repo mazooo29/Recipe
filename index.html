@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="/images/devchallenges.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="CSS/mobileSize.css">
@@ -29,78 +29,88 @@
         <main class="imageDiv">
             <img src="images/cake.png" alt="cake photo" class="imageView"> 
         </main>
-        <main>
-            <div class="inlineDivsYields">
-                <i class="fa-solid fa-utensils first"></i>
-            </div>
-            <div class="inlineDivsYields">
-                <p class="yieldsText">yields</p>
-                <p class="servingsText">12 Servings</p>
-            </div>
-        </main>
-        <main>
-            <div class="inlineDivsTime">
-                <i class="fa-regular fa-clock second"></i>
-            </div>
-            <div class="inlineDivsTime widthDiv">
-                <p class="prepTimeText">Prep TIme</p>
-                <p class="minutes45">45 minutes</p>
-            </div>
-            <div class="inlineDivsTime">
-                <b class="fa-regular fa-clock second"></b>
-            </div>
-            <div class="inlineDivsTime widthDiv">
-                <p class="prepTimeText">Cook Time</p>
-                <p class="minutes45">1 hour</p>
-            </div>
-            <div class="inlineDivsTime">
-                <b class="fa-regular fa-clock second"></b>
-            </div>
-            <div class="inlineDivsTime widthDiv">
-                <p class="prepTimeText">Total Time</p>
-                <p class="minutes45">7,75 hours</p>
-            </div>
-        </main>
+        <!--  display flex -->
         
-        <main>
-            <h2 class="IngredText">Ingredients</h2>
-        </main>
-        <main>
-            <h3 class="grahamText">Graham Cracker Crust</h3>
-        </main>
-        <main>
-            <form>
-                <div>
-                    <label class="checkbox" for="myCheckboxId">
-                        <div class="checkboxDiv">
-                            <input type="checkbox" name="myCheckboxName">
-                            <div>
-                                1 and 1/2 cups (150g)<b class="boldDiv"> graham cracker crumbs </b>(about 10 full sheet graham crackers)
-                            </div>
+            <main class="displayFlex displayInline">
+                <div class="clockAndPDiv">
+                    <div class="inlineDivsYields">
+                        <i class="fa-solid fa-utensils first"></i>
+                    </div>
+                    <div class="inlineDivsYields ">
+                        <p class="yieldsText">yields</p>
+                        <p class="servingsText">12 Servings</p>
+                    </div>
+                </div>
+                <div class="clockAndPDiv">
+                    <div class="inlineDivsYields">
+                        <i class="fa-regular fa-clock second"></i>
+                    </div>
+                    <div class="inlineDivsTime">
+                        <p class="prepTimeText">Prep TIme</p>
+                        <p class="minutes45">45 minutes</p>
+                    </div>
+                </div>
+                <div class="clockAndPDiv">
+                    <div class="inlineDivsYields">
+                        <i class="fa-regular fa-clock second"></i>
+                    </div>
+                    <div class="inlineDivsTime">
+                        <p class="prepTimeText">Cook Time</p>
+                        <p class="minutes45">1 hour</p>
+                    </div>
+                </div>
+                <div class="clockAndPDiv">
+                    <div class="inlineDivsYields">
+                        <i class="fa-regular fa-clock second"></i>
+                    </div>
+                    <div class="inlineDivsTime">
+                        <p class="prepTimeText">Total Time</p>
+                        <p class="minutes45">7,75 hours</p>
+                    </div>
+                </div>
+            </main>
+                <main class="ingredTextDiv">
+                    <h2 class="IngredText">Ingredients</h2>
+                </main>
+                <main>
+                    <h3 class="grahamText">Graham Cracker Crust</h3>
+                </main>
+                <main>
+                    <form>
+                        <div>
+                            <label class="checkbox labelTag" for="myCheckboxId">
+                                <div class="checkboxDiv">
+                                    <input type="checkbox" name="myCheckboxName">
+                                    <div>
+                                        1 and 1/2 cups (150g)<b class="boldDiv"> graham cracker crumbs </b>(about 10 full sheet
+                                        graham crackers)
+                                    </div>
+                                </div>
+                            </label>
                         </div>
-                    </label>
-                </div>
-                <div>
-                    <label class="checkbox" for="myCheckboxId">
-                        <input type="checkbox" name="myCheckboxName">
-                        5 Tablespoons (70g) unsalted butter, melted
-                    </label>
-                </div>
-                <div>
-                    <label class="checkbox" for="myCheckboxId">
-                        <input type="checkbox" name="myCheckboxName">
-                        1/4 cup (50g) granulated sugar  
-                    </label>
-                </div>    
-            </form>
-        </main>
+                        <div>
+                            <label class="checkbox labelTag" for="myCheckboxId">
+                                <input type="checkbox" name="myCheckboxName">
+                                5 Tablespoons (70g) unsalted butter, melted
+                            </label>
+                        </div>
+                        <div>
+                            <label class="checkbox labelTag" for="myCheckboxId">
+                                <input type="checkbox" name="myCheckboxName">
+                                1/4 cup (50g) granulated sugar
+                            </label>
+                        </div>
+                    </form>
+                </main>
+            </div>
+        </div>
         <main>
             <h3 class="chesecakeText">Cheesecake</h3>
         </main>
         <main>
             <form>
                 <div>
-                    <label class="checkbox" for="myCheckboxId">
+                    <label class="checkbox labelTag" for="myCheckboxId">
                         <div class="checkboxDiv">
                             <input type="checkbox" name="myCheckboxName">
                             <div>
@@ -110,13 +120,13 @@
                     </label>
                 </div>
                 <div>
-                    <label class="checkbox" for="myCheckboxId">
+                    <label class="checkbox labelTag" for="myCheckboxId">
                         <input type="checkbox" name="myCheckboxName">
                         1 cup (200g) <b class="boldDiv">granulated sugar</b>
                     </label>
                 </div> 
                 <div>
-                    <label class="checkbox" for="myCheckboxId">
+                    <label class="checkbox labelTag" for="myCheckboxId">
                         <div class="checkboxDiv">
                             <input type="checkbox" name="myCheckboxName">
                             <div>
@@ -126,13 +136,13 @@
                     </label>
                 </div>
                 <div>
-                    <label class="checkbox" for="myCheckboxId">
+                    <label class="checkbox labelTag" for="myCheckboxId">
                         <input type="checkbox" name="myCheckboxName">
                         1 teaspoon <b class="boldDiv">pure vanilla extract</b>  
                     </label>
                 </div>
                 <div>
-                    <label class="checkbox" for="myCheckboxId">
+                    <label class="checkbox labelTag" for="myCheckboxId">
                         <div class="checkboxDiv">
                             <input type="checkbox" name="myCheckboxName">
                             <div>
@@ -142,13 +152,13 @@
                     </label>
                 </div>
                 <div>
-                    <label class="checkbox" for="myCheckboxId">
+                    <label class="checkbox labelTag" for="myCheckboxId">
                         <input type="checkbox" name="myCheckboxName">
                         3 large <b class="boldDiv">eggs</b>, at room temperature
                     </label>
                 </div>
                 <div>
-                    <label class="checkbox" for="myCheckboxId">
+                    <label class="checkbox labelTag" for="myCheckboxId">
                         <div class="checkboxDiv">
                             <input type="checkbox" name="myCheckboxName">
                             <div>
@@ -164,7 +174,7 @@
             <h2 class="IngredText">Instructions</h2>
         </main>
         <main>
-            <label class="checkbox" for="myCheckboxId">
+            <label class="checkbox labelTag" for="myCheckboxId">
                 <div class="displayBlock">
                     <div>
                         <span>1</span>
@@ -176,7 +186,7 @@
             </label>
         </main>
         <main>
-            <label class="checkbox" for="myCheckboxId">
+            <label class="checkbox labelTag" for="myCheckboxId">
                 <div class="displayBlock">
                     <div>
                         <span>2</span>
@@ -188,7 +198,7 @@
             </label>
         </main>
         <main>
-            <label class="checkbox" for="myCheckboxId">
+            <label class="checkbox labelTag" for="myCheckboxId">
                 <div class="displayBlock">
                     <div>
                         <span>3</span>
@@ -200,7 +210,7 @@
             </label>
         </main>
         <main>
-            <label class="checkbox" for="myCheckboxId">
+            <label class="checkbox labelTag" for="myCheckboxId">
                 <div class="displayBlock">
                     <div>
                         <span>4</span>
@@ -212,7 +222,7 @@
             </label>
         </main>
         <main>
-            <label class="checkbox" for="myCheckboxId">
+            <label class="checkbox labelTag" for="myCheckboxId">
                 <div class="displayBlock">
                     <div>
                         <span>5</span>
@@ -224,7 +234,7 @@
             </label>
         </main>
         <main>
-            <label class="checkbox" for="myCheckboxId">
+            <label class="checkbox labelTag" for="myCheckboxId">
                 <div class="displayBlock">
                     <div>
                         <span>6</span>
@@ -236,7 +246,7 @@
             </label>
         </main>
         <main>
-            <label class="checkbox" for="myCheckboxId">
+            <label class="checkbox labelTag" for="myCheckboxId">
                 <div class="displayBlock">
                     <div>
                         <span>7</span>

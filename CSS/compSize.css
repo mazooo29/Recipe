@@ -1,55 +1,66 @@
-@media screen and (min-width:769px){
-/*  body{
-        position: absolute;
-        width: 1440px;
-        height: 2989px;
-        left: 0px;
-        top: -3px;
-        background: #FFFFFF;
-    }
-    .mainHeaderText{
-        position: relative;
-        width: auto;
-        height: 64px;
-        left: 236px;
-        top: 49px;
-        font-family: 'Playfair Display';
-        font-style: normal;
-        font-weight: 700;
+@media screen and (min-width:760px){ 
+    .mainHeaderText {
         font-size: 48px;
-        line-height: 64px;
-        color: #000000;
     }
     .paraDesc{
-        position: absolute;
-        width: 592px;
-        height: 51px;
-        left: 261px;
-        top: 125px;
-        font-family: 'Montserrat';
-        font-style: italic;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 17px;
-    }  
-    .imageView{
-        position: absolute;
-        width: 969px;
-        height: 470px;
-        left: 234px;
-        top: 193px;
-        background: url(cake.png);
-        border-radius: 12px;
-    } 
-    
-    .imageDiv{    
-        position: absolute;
-        width: 969px;
-        height: 470px;
-        left: 234px;
-        top: 193px;
-        background: url(cake.png);
-        border-radius: 12px;
+        font-size: 14px;        
     }
-    */      
-}   
+    
+    .displayFlex{
+        display: flex;
+        flex-direction: column;
+        float: right;
+        align-items: center;
+        margin-right: 240px;
+    }
+    .displayInline{
+        display: inherit;
+    } 
+    .yieldsText{
+        line-height: 36px;
+    }
+    .servingsText{
+        font-weight: 700;
+        font-size: 10px;
+    }
+        
+    i.first{
+        margin-top: 15px;
+        padding: 10px 10px;
+    }   
+    i.second{
+        margin-left: 13px;
+    }
+    .prepTimeText{
+        width: 90px;    
+    }
+    .minutes45{
+        float: right;
+    }
+    .inlineDivsTime{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .ingredTextDiv{
+        width: fit-content;
+    }
+    .IngredText{
+        width: fit-content;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .grahamText{
+        font-weight: 700;
+        font-size: 18px;
+        color: #333333;
+    }
+    .lineHeight{
+        line-height: 40px;
+    }
+    .clockAndPDiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
