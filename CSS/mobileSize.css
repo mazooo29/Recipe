@@ -1,0 +1,201 @@
+
+body{
+    background: #FAFAFA;
+}
+.mainHeaderText{
+    position: relative;
+    left: 11px;
+    right: 41px;
+    top: 32px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000; 
+}
+.p6pdiv{
+    margin: 30px 15px 0 10px;
+    width:80%;
+    height:70px;
+}
+.p6div{
+    float: left;
+    margin-top: 6px;
+}
+.pdiv{
+    display: flex; 
+}
+.paraDesc{
+    margin-left: 12px;
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #4F4F4F;
+}
+.Image6dots{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+.imageDiv{
+    width: 80%;
+    height: fit-content;
+    margin:0px 12px 5px;
+    bottom:50%;
+}   
+.imageView{
+    max-width: 100%;   
+    border-radius: 12px;
+}
+.inlineDivsYields{
+    display: inline-block;
+}
+.yieldsText{
+    height: 11px;
+    font-weight: 700;
+    font-size: 8px;
+    margin-top: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+.servingsText{
+    font-weight: 700;
+    font-size: 10px;
+    color: #F2994A;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+}
+    
+i.first{
+    margin-right: 10px;
+    color: #F2994A;
+    align-items: center;
+
+}
+i.second{
+    margin-right: 10px;
+}
+.prepTimeText{
+    display: inline-flex;
+    height: 10px;
+    font-weight: 700;
+    font-size: 8px;
+    margin-right:15px ;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.minutes45{
+    font-family: 'Montserrat';
+    height: 16px;
+    left: 32px;
+    font-weight: 700;
+    font-size: 10px;
+    margin-right: 15px;
+    line-height: 5px;
+    color: #333333;
+}
+.inlineDivsTime{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+.IngredText{
+    height: 24px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 18px;
+}
+.grahamText{
+    width: auto;
+    height: 21px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+.checkboxDiv{
+    display: flex;
+    height: auto;
+    width: auto ;
+}
+input[type="checkbox"]{
+    height: fit-content;
+    width: auto;
+    background-color: #d5d5d5;
+    border-radius: 2px;
+    margin-bottom: 12px;
+    margin-left: 8px;   
+    line-height: 150%;
+    cursor: pointer;
+}
+.labelTag{
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: black;
+    line-height: 150%;  
+}
+.checkboxTextDiv{
+    display: inline-block;
+}
+.boldDiv{
+    font-weight: 2000;
+}
+.chesecakeText{
+    position: relative;
+    width: 287px;
+    height: 25px;
+    font-family: 'Playfair Display'; 
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+div span {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:25px;
+    height:25px;
+    border-radius:15%;
+    background-color:#F2994A;
+    color:#fff;
+    font-family: 'Playfair Display';
+}
+.instructionsMenu{
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.displayBlock{
+    display: flex;
+    margin-bottom: 20px;
+}
+.displayBlockRight{
+    float: right;
+}
+div span {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:25px;
+    height:25px;
+    margin-right: 15px;
+    border-radius:15%;
+    background-color:#F2994A;
+    color:#fff;
+    font-family: 'Playfair Display';
+}
+.authorName{
+    align-items: center; 
+    text-align: center;       
+}
+.displayInline{
+    display: flex;
+    flex-direction: row;
+}
+

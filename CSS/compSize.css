@@ -1,0 +1,66 @@
+@media screen and (min-width:760px){ 
+    .mainHeaderText {
+        font-size: 48px;
+    }
+    .paraDesc{
+        font-size: 14px;        
+    }
+    
+    .displayFlex{
+        display: flex;
+        flex-direction: column;
+        float: right;
+        align-items: center;
+        margin-right: 240px;
+    }
+    .displayInline{
+        display: inherit;
+    } 
+    .yieldsText{
+        line-height: 36px;
+    }
+    .servingsText{
+        font-weight: 700;
+        font-size: 10px;
+    }
+        
+    i.first{
+        margin-top: 15px;
+        padding: 10px 10px;
+    }   
+    i.second{
+        margin-left: 13px;
+    }
+    .prepTimeText{
+        width: 90px;    
+    }
+    .minutes45{
+        float: right;
+    }
+    .inlineDivsTime{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .ingredTextDiv{
+        width: fit-content;
+    }
+    .IngredText{
+        width: fit-content;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .grahamText{
+        font-weight: 700;
+        font-size: 18px;
+        color: #333333;
+    }
+    .lineHeight{
+        line-height: 40px;
+    }
+    .clockAndPDiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
